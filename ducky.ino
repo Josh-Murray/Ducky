@@ -120,7 +120,7 @@ void popthatShell() {
   Keyboard.releaseAll();
   delay(200);
 }
-
+//Had to redo print cause nothing works :)
 void newPrint(String URL) {
   char temp[URL.length()+1];
   URL.toCharArray(temp, URL.length()+1);
